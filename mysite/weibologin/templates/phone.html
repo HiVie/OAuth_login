@@ -1,0 +1,16 @@
+{% extends 'weibo_login.html' %}
+
+{% block index %}
+    
+<div class="container">
+	<div class="row justify-content-md-center">
+		<form method="POST" action="#">
+			phone:<input type="tel" pattern="[0-9]{11}" name="phone_num" /></input>
+			<hr>
+			<input type="submit" value="submit" />
+		</form>
+	</div>
+	<hr>
+</div>
+{% endblock %}
+
